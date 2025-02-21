@@ -484,9 +484,6 @@ Glossary
     filesystem
         A filesystem defines how data is organized, stored, and accessed on a storage device.
 
-    FIPS
-        *Work in Progress*
-
     Fluentd
         *Work in Progress*
 
