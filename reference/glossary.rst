@@ -481,6 +481,8 @@ Glossary
     FileSet
         A FileSet defines a group of directories that will be included when performing a backup job using {term}`Bacula`.
 
+        Related topic(s): Storage
+
     filesystem
         A filesystem defines how data is organized, stored, and accessed on a storage device.
 
