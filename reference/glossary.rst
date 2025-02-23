@@ -509,7 +509,7 @@ Glossary
         *Work in Progress*
 
     fsck
-        *Work in Progress*
+        File System Check (fsck) is a Linux/Unix-like system utility tool used that checks and repairs any filesystem errors.
 
     fsync
         *Work in Progress*
