@@ -509,16 +509,28 @@ Glossary
         *Work in Progress*
 
     fsck
-        *Work in Progress*
+        File System Check (fsck) is a Linux/Unix-like system utility tool used that checks and repairs any filesystem errors.
 
-    fsync
-        *Work in Progress*
+        Related topic(s): :term:`Storage <storages>`
 
     FULLTEXT
-        *Work in Progress*
+ 
+        FULLTEXT takes a sentence, splits it into words, and links them to row IDs. When a search query for a word is made, MySQL 
+        quickly looks up the row the word appear in, and retrieves all matching row IDs, rather than scanning the entire table. It can also find similar words using natural language processing.
+
+        See `Full-Text Search Functions <https://dev.mysql.com/doc/refman/8.4/en/fulltext-search.html>`_ for more details.
+
+        Related topic(s): Databases
 
     FW
-        *Work in Progress*
+
+        A firmware (FW) is a software that runs before an operating system (OS) boots.
+
+        - When a QEMU microvm starts, the firmware initializes minimal virtual hardware like allocating RAM to the OS, etc. and then loads the Linux kernel into memory.
+
+        - In a physical device, firmware configures :term:`PCIe` devices like GPUs or network cards. If :term:`IOMMU` is enabled, the PCIe devices are grouped based on how they are physically wired on the motherboard. IOMMU then ensures isolation and memory mapping for these PCIe devices, allowing virtual machines to access the hardware devices using :term:`VFIO`-:term:`PCI` driver.
+
+        Related topic(s): Virtualisation, Networking, Virtualisation and containers, Graphics, and Server installation.
 
     GCE
         *Work in Progress*
