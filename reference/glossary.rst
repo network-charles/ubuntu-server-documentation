@@ -511,11 +511,14 @@ Glossary
     fsck
         File System Check (fsck) is a Linux/Unix-like system utility tool used that checks and repairs any filesystem errors.
 
-    fsync
-        *Work in Progress*
-
     FULLTEXT
-        *Work in Progress*
+ 
+        FULLTEXT takes a sentence, splits it into words, and links them to row IDs. When a search query for a word is made, MySQL 
+        quickly looks up the row the word appear in, and retrieves all matching row IDs, rather than scanning the entire table. It can also find similar words using natural language processing.
+
+        See `Full-Text Search Functions <https://dev.mysql.com/doc/refman/8.4/en/fulltext-search.html>`_ for more details.
+
+        Related topic(s): :term:`MySQL`, :term:`InnoDB`
 
     FW
         *Work in Progress*
