@@ -511,6 +511,8 @@ Glossary
     fsck
         File System Check (fsck) is a Linux/Unix-like system utility tool used that checks and repairs any filesystem errors.
 
+        Related topic(s): :term:`Storage <storages>`
+
     FULLTEXT
  
         FULLTEXT takes a sentence, splits it into words, and links them to row IDs. When a search query for a word is made, MySQL 
@@ -518,7 +520,7 @@ Glossary
 
         See `Full-Text Search Functions <https://dev.mysql.com/doc/refman/8.4/en/fulltext-search.html>`_ for more details.
 
-        Related topic(s): :term:`MySQL`, :term:`InnoDB`
+        Related topic(s): :term:`MySQL`, and :term:`InnoDB`
 
     FW
         *Work in Progress*
